@@ -3,7 +3,7 @@
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import net.bytebuddy.asm.Advice.This;
 
-public class Demo extends Test {
+public class Demo  {
 	
 	Demo(int i)
 	{
@@ -17,10 +17,7 @@ public class Demo extends Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-	//	Demo d = new Demo();
-    Test d = new Demo();	
-    
+	System.out.println("  demo");
     
 
 	}
